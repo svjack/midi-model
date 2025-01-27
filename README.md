@@ -186,6 +186,9 @@ def copy_and_rename_audio_files(audio_files, target_folder, prefix="output"):
 copy_and_rename_audio_files(audio_files, target_folder = "demo0", prefix="output")
 ```
 
+- MIDI File Render
+- https://huggingface.co/spaces/asigalov61/Advanced-MIDI-Renderer
+
 
 ## Updates
 - v1.3: MIDITokenizerV2 and new MidiVisualizer
