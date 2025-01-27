@@ -28,7 +28,7 @@ This repository contains a demo for a MIDI composer model. The setup instruction
    Install the necessary system packages and Python dependencies:
 
    ```bash
-   sudo apt-get update && sudo apt install fluidsynth
+   sudo apt-get update && sudo apt-get install fluidsynth
    pip install -r requirements.txt
    pip install spaces
    ```
