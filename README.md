@@ -4,6 +4,47 @@
 
 ![](./banner.png)
 
+# MIDI Composer Demo
+
+This repository contains a demo for a MIDI composer model. The setup instructions below will guide you through the process of setting up the environment and running the demo.
+
+## Setup Environment
+
+1. **Clone the Repository**:
+   First, clone the repository from Hugging Face Spaces:
+
+   ```bash
+   git clone https://huggingface.co/spaces/skytnt/midi-composer
+   ```
+
+2. **Navigate to the Repository Directory**:
+   Change to the cloned repository directory:
+
+   ```bash
+   cd midi-composer
+   ```
+
+3. **Install Required Packages**:
+   Install the necessary system packages and Python dependencies:
+
+   ```bash
+   sudo apt-get update && sudo apt install fluidsynth
+   pip install -r requirements.txt
+   pip install spaces
+   ```
+
+## Run the Demo
+
+Once the environment is set up, you can run the demo using the following command:
+
+```bash
+python app.py --max-gen 4096 --share
+```
+
+This command will start the application with a maximum generation limit of 4096 and share the application publicly.
+
+
+
 ## Updates
 - v1.3: MIDITokenizerV2 and new MidiVisualizer
 - v1.2 : Optimise the tokenizer and dataset. The dataset was filtered by MIDITokenizer.check_quality. Using the higher quality dataset to train the model, the performance of the model is significantly improved.
